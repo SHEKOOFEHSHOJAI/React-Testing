@@ -39,7 +39,7 @@ export default function Application() {
             <input type="checkbox" id="terms" />i ignore to the terms
           </label>
         </div>
-        <button>submit</button>
+        <button disabled>submit</button>
       </form>
     </>
   );

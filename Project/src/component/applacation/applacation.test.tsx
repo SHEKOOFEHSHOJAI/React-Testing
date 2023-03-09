@@ -65,5 +65,9 @@ describe("applcation", () => {
     // getByTestId
     const spanIdElement = screen.getByTestId("testMe");
     expect(spanIdElement).toBeInTheDocument();
+
+    const submitButtonEle = screen.getByRole("button");
+    expect(submitButtonEle).toBeInTheDocument();
+    expect(submitButtonEle).not.toBeDisabled();
   });
 });

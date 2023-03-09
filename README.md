@@ -121,3 +121,25 @@ keyboard({shife} A {/shift}) =>shift dowen A shift up
 tab()
 
 <!-- statick analysis testing -->
+
+fer debug
+
+<!-- yarn add -D eslint-plugin-jest-dom -->
+
+<!-- <!- eslintConfig--> -->
+
+"plugin:jest-dom/recommended"=====>when use jestDom
+
+"Lint": "eslint --ignore-path .gitignore .",=====>add to script
+run =>yarn Lint
+
+<!-- prittir config -->
+
+yarn add --dev --exact prettier
+"format": "prettier --ignore-path .gitignore --write \"\*_/_.{ts,tsx,css,scss}\"",
+
+yarn format
+
+<!-- yarn add -D eslint-config-prettier -->
+
+"eslint-config-prettier"======>in eslintConfig in json
